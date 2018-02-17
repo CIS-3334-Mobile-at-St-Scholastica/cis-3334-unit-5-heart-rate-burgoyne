@@ -47,6 +47,27 @@ public class HeartRateAdapter  extends ArrayAdapter<HeartRate> {
         TextView tvPulse=(TextView)view.findViewById(R.id.textViewPulse);
         tvPulse.setText(hr.getPulse().toString());
 
+        //code added for assignment - not working - could not figure out how to align layout
+
+        //TextView tvRange=(TextView)view.findViewById(R.id.textViewRange);
+        //HeartRate.getRangeName();
+
+        //TextView tvDesc=(TextView)view.findViewById(R.id.textViewDesc);
+        //HeartRate.getRangeDescription();
+
+        //if (tvRange = "Resting")
+            //ContextCompat.getColor(context, R.color.colorZone1);
+        //else if (tvRange = "Moderate")
+            //ContextCompat.getColor(context, R.color.colorZone1);
+        //else if (tvRange = "Endurance")
+            //ContextCompat.getColor(context, R.color.colorZone2);
+        //else if (tvRange = "Aerobic")
+            //ContextCompat.getColor(context, R.color.colorZone3);
+        //else if (tvRange = "Anaerobic")
+            //ContextCompat.getColor(context, R.color.colorZone4);
+        //else
+            //ContextCompat.getColor(context, R.color.colorZone5);
+
         return(view);
     }
 

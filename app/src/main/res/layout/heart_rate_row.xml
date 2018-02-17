@@ -6,14 +6,15 @@
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="16dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:text="Pulse: " />
 
     <TextView
         android:id="@+id/textViewPulse"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1" />
+
 </LinearLayout>
